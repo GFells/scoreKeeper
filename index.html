@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="scoreStyle.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Score Keeper</h1>
+    </div>
+    <div class="pingPongImage">
+      <img src="pingpong.jpg" alt="Ping pong paddle" id="pingPong">
+    </div>
+    <div class="scoreTitle">
+      <p>Ping Pong Score Keeper</p>
+    </div>
+    <div class="scoreArea">
+      <div class="scoreHolder">
+        <h2 id="scores">0 to 0</h2>
+      </div>
+      <p>Use the buttons below to keep score.</p>
+      <label for="goal">Playing To</label>
+
+        <select name="goal" id="goal">
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+    </div>
+    <div class="buttonHolder">
+        <button type="button" class="playButton" name="player1" id="player1">+1 Player One</button>
+        <button type="button" class="playButton" name="player2" id="player2">+1 Player Two</button>
+        <button type="button" class="playButton" name="reset" id="reset">RESET</button>
+    </div>
+    <script src="scoreJS.js" charset="utf-8"></script>
+  </body>
+</html>
