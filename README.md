@@ -1,0 +1,2 @@
+# scoreKeeper
+Small Javascript exercise
